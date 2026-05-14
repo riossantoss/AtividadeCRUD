@@ -20,15 +20,14 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#0F0F0F"
       },
-      "package": "com.dev.rncrudtasks"
+      "package": "com.dev.rncrudtasks",
+      "edgetoEdge": true,
+      "predictiveBackGestureEnabled": false
     },
-    "plugins": [
-      [
-        "expo-sqlite",
-        {
-          "enableFTS": false
-        }
-      ]
-    ]
+    "extra": {
+      "eas": {
+        "projectId": "c39ba469-5102-4a07-8958-e3c0ac6f4861"
+      }
+    }
   }
 }
